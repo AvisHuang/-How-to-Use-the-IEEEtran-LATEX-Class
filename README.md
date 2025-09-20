@@ -2,7 +2,7 @@
 #用途：IEEEtran可幫助作者快速排版出符合 IEEE 格式的專業論文。
 
 ## 進階操作技巧可參閱：bare_adv.tex
-# 介紹
+# Introduction
 
 ## 文字大小
 10pt:絕大多數 IEEE 論文採用
@@ -36,4 +36,9 @@
 ## 附錄
 romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II, III…。
 
-# 
+## nofonttune
+因為IEEEtran 會自動優化字間距，ofonttune可以關閉這個優化
+
+
+
+# CLASSINPUT、CLASSOPTION 與 CLASSINFO 控制
