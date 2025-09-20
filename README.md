@@ -195,7 +195,6 @@ e.g.\IEEEpubid{0000--0000/00\$00.00 \copyright 2015 IEEE}
 2.有時還需要使用跨欄的空間（例如致敬語或 dedication [15]）。
 
 IEEEtran 提供指令：
-
 \IEEEaftertitletext{\vspace{-1\baselineskip}}
 
 可用於插入文字或調整標題區與正文之間的間距。
