@@ -93,10 +93,17 @@ CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在
 \CLASSINFOnormalsizebaselineskip → 正文字體的行距值。
 
 \CLASSINFOnormalsizeunitybaselineskip → 在 \baselinestretch=1 時的行距值。
+
 頁面尺寸：
 
 \CLASSINFOpaperwidth
 
 \CLASSINFOpaperheight
 → 會輸出完整尺寸（含單位），例如 8.5in, 297mm
+
+
+
+
+
+
 
