@@ -11,8 +11,9 @@
 
 11pt:一些會議的初稿投稿要求
 
-#IEEE Computer Society 的出版品用的是bp，不是傳統的pt。有大小差異
+*IEEE Computer Society 的出版品用的是bp，不是傳統的pt。有大小差異
 10pt Computer Society 期刊，實際字體大小是 9.5 bp。
+
 但IEEEtran 會自動調整字體大小，根據不同模式 (journal, conference, technote 等)，讓輸出符合 IEEE 標準。
 
 # IEEEtran 的三個特殊模式：comsoc、compsoc、transmag
