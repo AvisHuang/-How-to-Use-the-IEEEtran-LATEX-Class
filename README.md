@@ -146,6 +146,13 @@ e.g.
 
 \thanks{...} → 用來加附註（如稿件日期、資助單位、作者單位）。
 
+如果只是單行換行，可以在 \thanks 內用 \\
+
+限制：\thanks 不能直接容納多段落。
+→ 如果要分多段，必須多寫幾個 \thanks{...}。
+
 ~（non-breaking space） → 保持作者名字和稱謂間不換行。
+
+  e.g.例：John~Doe,~\IEEEmembership{Member,~IEEE}
 
 % → 避免 LaTeX 自動加空格。
