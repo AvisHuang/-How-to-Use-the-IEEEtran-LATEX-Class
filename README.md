@@ -16,7 +16,7 @@
 
 但IEEEtran 會自動調整字體大小，根據不同模式 (journal, conference, technote 等)，讓輸出符合 IEEE 標準。
 
-# IEEEtran 的三個特殊模式：comsoc、compsoc、transmag
+## IEEEtran 的三個特殊模式：comsoc、compsoc、transmag
 1.Comsoc Mode (IEEE 通訊學會格式)
 影響；只修改數學字體，讓它更接近 Times Roman 正文字體。
 <img width="824" height="417" alt="image" src="https://github.com/user-attachments/assets/397ebba3-05f6-4b28-b2d3-d616f4200eca" />
