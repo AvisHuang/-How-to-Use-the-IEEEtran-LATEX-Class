@@ -42,3 +42,16 @@ romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II,
 
 
 # CLASSINPUT、CLASSOPTION 與 CLASSINFO 控制
+
+# classinputs
+
+CLASSINPUT 適合進階使用者客製邊界/行距，但要小心，因為這樣做可能不再符合 IEEE 投稿規範。
+# classoptions
+
+讓你根據使用者選的 class options（如 conference, draft, 10pt, a4）來做條件判斷。
+# classinfos
+
+提供文件環境資訊（是否 PDF、行距、紙張大小等），方便查詢。
+
+
+
