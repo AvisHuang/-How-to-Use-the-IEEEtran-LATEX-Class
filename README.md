@@ -44,14 +44,29 @@ romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II,
 # CLASSINPUT、CLASSOPTION 與 CLASSINFO 控制
 
 # classinputs
+可用的CLASSINPUTs函式有：
+\CLASSINPUTbaselinestretch → 設定文件的行距
+\CLASSINPUTinnersidemargin → 設定內側（裝訂邊）邊界
+\CLASSINPUToutersidemargin → 設定外側邊界
+\CLASSINPUTtoptextmargin → 設定上邊界
+\CLASSINPUTbottomtextmargin → 設定下邊界
+<img width="618" height="294" alt="image" src="https://github.com/user-attachments/assets/e37f910f-74d0-4f6d-8bbd-fd606379d126" />
 
-CLASSINPUT 適合進階使用者客製邊界/行距，但要小心，因為這樣做可能不再符合 IEEE 投稿規範。
+CLASSINPUTs預設參數
+\headheight = 12pt
+\headsep = 0.25in
+\footskip = 0.4in
+<img width="473" height="164" alt="image" src="https://github.com/user-attachments/assets/f32db80c-200c-437a-8488-6b7dc309fb09" />
+
+**CLASSINPUT 適合進階使用者客製邊界/行距，但要小心，因為這樣做可能不再符合 IEEE 投稿規範。
+
 # classoptions
+CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在\documentclass 中選的選項來決定，可以方便在文件中做條件式編譯。
+<img width="562" height="291" alt="image" src="https://github.com/user-attachments/assets/de85d6e3-84e5-48a0-83dc-7f70ef020919" />
 
-讓你根據使用者選的 class options（如 conference, draft, 10pt, a4）來做條件判斷。
-# classinfos
+*限制：這些變數是唯讀的，不能手動改，因為IEEEtran本身用它們來控制格式。
+
 
 提供文件環境資訊（是否 PDF、行距、紙張大小等），方便查詢。
-
 
 
