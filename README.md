@@ -106,7 +106,7 @@ CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在
 
 標題頁區塊由 LaTeX 的 \maketitle 指令生成。
 
-# Paper Title
+## A.Paper Title
 
 用 \title{...} 定義
 
@@ -119,7 +119,7 @@ e.g.\title{A Heuristic Coconut-based Algorithm}
 
 ***禁止：不要在標題中使用數學公式或特殊符號。
 
-# Author Names
+## B.Author Names
 
 用 \author{...} 定義。
 
@@ -158,7 +158,7 @@ e.g.
 4.% → 避免 LaTeX 自動加空格。
 
 
-#### 頁首標題
+## C.頁首標題
 
 頁首標題是透過 \markboth{}{} 指令來設定的：
 
@@ -168,5 +168,12 @@ e.g.
 
 e.g.\markboth{Journal of Quantum Telecommunications, Vol. 1, No. 1, January 2025}{Shell \MakeLowercase{\textit{et al.}}: A Novel Tin Can Link}
 
+***
+
+由於頁首標題文字會自動轉為大寫，若需要小寫文字，必須使用 \MakeLowercase{}。
+
+Technote 論文不使用第二個參數。
+
+## D.出版物識別標記
 
 
