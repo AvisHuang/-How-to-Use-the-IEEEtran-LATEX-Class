@@ -156,3 +156,17 @@ e.g.
   e.g.例：John~Doe,~\IEEEmembership{Member,~IEEE}
 
 4.% → 避免 LaTeX 自動加空格。
+
+
+## 頁首標題
+
+頁首標題是透過 \markboth{}{} 指令來設定的：
+
+第一個參數：放置期刊名稱資訊。
+
+第二個參數：放置作者名稱與論文標題。
+
+e.g.\markboth{Journal of Quantum Telecommunications, Vol. 1, No. 1, January 2025}{Shell \MakeLowercase{\textit{et al.}}: A Novel Tin Can Link}
+
+
+
