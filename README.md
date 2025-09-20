@@ -24,13 +24,19 @@
 
 2.Compsoc Mode (IEEE 計算機學會格式)
 影響:正文字體從 Times Roman → 改為 Palatino/Palladio（只限非會議模式）
+
 調整頁邊距、與一般會議模式差異不大，但保留了阿拉伯數字的章節編號。
 
 3.Transmag Mode(適用於 IEEE Transactions on Magnetics 與 IEEE Magnetics Letters)
-特點:\author 欄位要輸入完整形式（不像會議模式那樣簡寫）、啟用 \IEEEtitleabstractindextext 指令 → 摘要與索引詞為單欄排版、\IEEEauthorrefmark 會產生阿拉伯數字的作者單位符號。
+特點:\author 欄位要輸入完整形式（不像會議模式那樣簡寫）
+
+啟用 \IEEEtitleabstractindextext 指令 → 摘要與索引詞為單欄排版
+
+\IEEEauthorrefmark 會產生阿拉伯數字的作者單位符號。
 
 ## 紙張
 通常要選letterpaper(8.5 × 11 英吋，美國標準，IEEE 預設)
+
 注意：要確保 .tex 與後處理 (PS, PDF) 使用相同紙張設定，不然常會出現邊界錯誤。
 
 ## 附錄
@@ -45,10 +51,15 @@ romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II,
 
 # classinputs
 可用的CLASSINPUTs函式有：
+
 \CLASSINPUTbaselinestretch → 設定文件的行距
+
 \CLASSINPUTinnersidemargin → 設定內側（裝訂邊）邊界
+
 \CLASSINPUToutersidemargin → 設定外側邊界
+
 \CLASSINPUTtoptextmargin → 設定上邊界
+
 \CLASSINPUTbottomtextmargin → 設定下邊界
 
 <img width="618" height="294" alt="image" src="https://github.com/user-attachments/assets/e37f910f-74d0-4f6d-8bbd-fd606379d126" />
@@ -66,6 +77,7 @@ CLASSINPUTs預設參數
 **CLASSINPUT 適合進階使用者客製邊界/行距，但要小心，因為這樣做可能不再符合 IEEE 投稿規範。
 
 # classoptions
+
 CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在\documentclass 中選的選項來決定，可以方便在文件中做條件式編譯。
 
 <img width="562" height="291" alt="image" src="https://github.com/user-attachments/assets/de85d6e3-84e5-48a0-83dc-7f70ef020919" />
