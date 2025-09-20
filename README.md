@@ -231,8 +231,38 @@ IEEEtran 提供指令：
 
 \end{IEEEkeywords}
 
+3.限制
 
+不使用數學或特殊符號
 
+# VI.章節
 
+## 1.章節宣告方式
+
+使用 LATEX 標準指令：
+
+\section
+
+\subsection
+
+\subsubsection
+
+\paragraph
+
+## 2.章節編號規則
+
+非 Compsoc 模式：
+
+\section → 大寫羅馬數字（I, II, …）
+
+\subsection → 大寫英文字母（A, B, …）
+
+\subsubsection → 阿拉伯數字（1, 2, …）
+
+\paragraph → 小寫英文字母（a, b, …）
+
+Compsoc 模式：
+
+只使用阿拉伯數字（1, 1.1, 1.1.1, …）
 
 
