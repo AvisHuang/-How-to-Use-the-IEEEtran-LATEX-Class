@@ -122,6 +122,7 @@ e.g.\title{A Heuristic Coconut-based Algorithm}
 用 \author{...} 定義。
 
 e.g.
+
 \author{
   Michael~Shell,~\IEEEmembership{Member,~IEEE,}
   John~Doe,~\IEEEmembership{Fellow,~OSA,}
