@@ -48,7 +48,7 @@ romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II,
 
 
 
-# CLASSINPUT、CLASSOPTION 與 CLASSINFO 控制
+# III.CLASSINPUT、CLASSOPTION 與 CLASSINFO 控制
 
 classinputs
 可用的CLASSINPUTs函式有：
