@@ -37,7 +37,7 @@
 romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II, III…。
 
 ## nofonttune
-因為IEEEtran 會自動優化字間距，ofonttune可以關閉這個優化
+因為IEEEtran 會自動優化字間距，nofonttune可以關閉這個優化
 
 
 
@@ -54,8 +54,11 @@ romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II,
 <img width="618" height="294" alt="image" src="https://github.com/user-attachments/assets/e37f910f-74d0-4f6d-8bbd-fd606379d126" />
 
 CLASSINPUTs預設參數
+
 \headheight = 12pt
+
 \headsep = 0.25in
+
 \footskip = 0.4in
 
 <img width="473" height="164" alt="image" src="https://github.com/user-attachments/assets/f32db80c-200c-437a-8488-6b7dc309fb09" />
