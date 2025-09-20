@@ -2,7 +2,7 @@
 #用途：IEEEtran可幫助作者快速排版出符合 IEEE 格式的專業論文。
 
 ## 進階操作技巧可參閱：bare_adv.tex
-# Introduction
+# CLASSOPTION
 
 ## 文字大小
 10pt:絕大多數 IEEE 論文採用
