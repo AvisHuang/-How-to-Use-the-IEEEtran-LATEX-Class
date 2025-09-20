@@ -251,7 +251,7 @@ IEEEtran 提供指令：
 
 ## 2.章節編號規則
 
-非 Compsoc 模式：
+非 Compsoc(IEEE Computer Society) 模式：
 
   &nbsp;&nbsp;&nbsp;&nbsp;\section → 大寫羅馬數字（I, II, …）
 
