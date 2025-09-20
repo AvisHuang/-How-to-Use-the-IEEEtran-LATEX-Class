@@ -49,7 +49,7 @@ romanappendices → 附錄預設是 A, B, C…；加這個選項可改成 I, II,
 
 # CLASSINPUT、CLASSOPTION 與 CLASSINFO 控制
 
-# classinputs
+classinputs
 可用的CLASSINPUTs函式有：
 
 \CLASSINPUTbaselinestretch → 設定文件的行距
@@ -76,7 +76,7 @@ CLASSINPUTs預設參數
 
 **CLASSINPUT 適合進階使用者客製邊界/行距，但要小心，因為這樣做可能不再符合 IEEE 投稿規範。
 
-# classoptions
+classoptions
 
 CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在\documentclass 中選的選項來決定，可以方便在文件中做條件式編譯。
 
@@ -84,7 +84,7 @@ CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在
 
 *限制：這些變數是唯讀的，不能手動改，因為IEEEtran本身用它們來控制格式。
 
-
+CLASSINFOs
 提供文件環境資訊（是否 PDF、行距、紙張大小等），方便查詢。
 
 
