@@ -188,6 +188,8 @@ e.g.\IEEEpubid{0000--0000/00\$00.00 \copyright 2015 IEEE}
 
 ## E. 特別論文標示
 
+特別論文標示（如邀請論文）可以透過以下指令設定：
 
+\IEEEspecialpapernotice{(Invited Paper)}
 
 
