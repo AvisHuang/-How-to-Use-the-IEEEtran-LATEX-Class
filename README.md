@@ -102,8 +102,33 @@ CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在
 → 會輸出完整尺寸（含單位），例如 8.5in, 297mm
 
 
+# IV. THE TITLE PAGE
 
+# Paper Title
 
+用 \title{...} 定義
 
+e.g.\title{A Heuristic Coconut-based Algorithm}
+規範：
+
+1.標題大部分單字首字母需大寫。
+
+2.可以用 \\ 斷行來讓標題行長度更均衡。
+
+***禁止：不要在標題中使用數學公式或特殊符號。
+
+# Author Names
+
+用 \author{...} 定義。
+
+e.g.
+\author{
+  Michael~Shell,~\IEEEmembership{Member,~IEEE,}
+  John~Doe,~\IEEEmembership{Fellow,~OSA,}
+  and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}%
+  \thanks{Manuscript received January 20, 2002; revised August 26, 2015. 
+  This work was supported by the IEEE.}%
+  \thanks{M. Shell was with the Georgia Institute of Technology.}%
+}
 
 
