@@ -104,6 +104,8 @@ CLASSOPTIONs是一組由 IEEEtran 自動設定的\if 條件，依照使用者在
 
 # IV. THE TITLE PAGE
 
+標題頁區塊由 LaTeX 的 \maketitle 指令生成。
+
 # Paper Title
 
 用 \title{...} 定義
@@ -125,11 +127,25 @@ e.g.
 
 \author{
   Michael~Shell,~\IEEEmembership{Member,~IEEE,}
+  
   John~Doe,~\IEEEmembership{Fellow,~OSA,}
+  
   and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}%
+  
   \thanks{Manuscript received January 20, 2002; revised August 26, 2015. 
+  
   This work was supported by the IEEE.}%
+  
   \thanks{M. Shell was with the Georgia Institute of Technology.}%
+  
 }
 
+重點說明：
 
+\IEEEmembership{...} → 用來表示作者的 IEEE 或其他學會會員等級。
+
+\thanks{...} → 用來加附註（如稿件日期、資助單位、作者單位）。
+
+~（non-breaking space） → 保持作者名字和稱謂間不換行。
+
+% → 避免 LaTeX 自動加空格。
