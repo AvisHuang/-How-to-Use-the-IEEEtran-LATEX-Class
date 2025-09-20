@@ -253,16 +253,16 @@ IEEEtran 提供指令：
 
 非 Compsoc 模式：
 
-\section → 大寫羅馬數字（I, II, …）
+  \section → 大寫羅馬數字（I, II, …）
 
-\subsection → 大寫英文字母（A, B, …）
+  \subsection → 大寫英文字母（A, B, …）
 
-\subsubsection → 阿拉伯數字（1, 2, …）
+  \subsubsection → 阿拉伯數字（1, 2, …）
 
-\paragraph → 小寫英文字母（a, b, …）
+  \paragraph → 小寫英文字母（a, b, …）
 
 Compsoc 模式：
 
-只使用阿拉伯數字（1, 1.1, 1.1.1, …）
+  只使用阿拉伯數字（1, 1.1, 1.1.1, …）
 
 
