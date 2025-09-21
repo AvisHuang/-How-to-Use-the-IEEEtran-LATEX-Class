@@ -281,8 +281,47 @@ Compsoc 模式：
 
 # VII.引用（Citations）
 
+1.使用 thebibliography 環境或 BibTeX 建立文獻清單
 
+2.文獻條目依引用順序編號，而不是依字母順序
 
+3.論文標題僅首字母大寫（專有名詞除外）
 
+4.未出版文章標註 “unpublished”，已接受但未刊出標註 “in press”
 
+5.翻譯期刊：先給英文引文，再附原文引文
+
+IX. 圖表
+
+1.圖（Figures）
+
+&nbsp;&nbsp;&nbsp;&nbsp;使用 figure 環境
+
+&nbsp;&nbsp;&nbsp;&nbsp;圖說（caption）放在圖的下方
+
+&nbsp;&nbsp;&nbsp;&nbsp;避免使用彩色，除非必要
+
+2.表（Tables）
+
+&nbsp;&nbsp;&nbsp;&nbsp;使用 table 環境
+
+&nbsp;&nbsp;&nbsp;&nbsp;表題放在表的上方
+
+&nbsp;&nbsp;&nbsp;&nbsp;使用 \begin{tabular} 排版內容
+
+3.注意事項
+
+&nbsp;&nbsp;&nbsp;&nbsp;圖表需在文中首次被提及之後才出現
+
+&nbsp;&nbsp;&nbsp;&nbsp;使用 \label 與 \ref 做交叉引用
+
+&nbsp;&nbsp;&nbsp;&nbsp;避免太大或太小的圖表，保持可讀性
+
+X. 結論
+
+1.簡短總結全文貢獻與發現
+
+2.不應包含新的內容或未提及的數據
+
+3.常以簡潔的段落形式呈現
 
